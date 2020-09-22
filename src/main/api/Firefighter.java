@@ -16,4 +16,6 @@ public interface Firefighter {
    * @return the total distance traveled by this firefighter
    */
   int distanceTraveled();
+
+  void setLocation(CityNode newLocation);
 }
