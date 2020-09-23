@@ -7,9 +7,9 @@ import main.api.*;
 
 public class FireDispatchImpl implements FireDispatch {
 
-  List<Firefighter> firefighters;
-  City city;
-  CityNode fireStationLocation;
+  private List<Firefighter> firefighters;
+  private City city;
+  private CityNode fireStationLocation;
 
   public FireDispatchImpl(City city) {
     this.firefighters = new ArrayList<>();
